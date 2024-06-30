@@ -1,15 +1,15 @@
-# Gerenciador de PodCasts
+# 🎙️ Gerenciador de PodCasts
 
-## Descrição
+## ℹ️ Descrição 
 
 O Gerenciador de PodCasts é uma aplicação inspirada no estilo da Netflix, que permite centralizar diferentes episódios de podcasts separados por categoria. Este projeto visa facilitar o acesso e a organização de episódios de podcasts em formato de vídeo, proporcionando uma experiência de navegação intuitiva e agradável para os usuários.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
 - **Listar os episódios de podcasts em sessões de categorias:** Os episódios são organizados em categorias como saúde, bodybuilder, metodologia ágil, qa, programação e humor, permitindo aos usuários explorar facilmente os conteúdos disponíveis.
 - **Filtrar episódios por nome de podcast:** Os usuários podem realizar buscas específicas por nome de podcast, facilitando o acesso aos episódios desejados.
 
-## Implementação
+## ✅ Implementação
 
 ### Mensagem de boas vindas
 
@@ -52,7 +52,7 @@ O Gerenciador de PodCasts é uma aplicação inspirada no estilo da Netflix, que
 - **Descrição:** Retorna uma lista de episódios de podcast com base no nome do podcast fornecido.
 - **Exemplo de requisição:** `GET /api/podcasts?p=flow`
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **[TypeScript](https://www.typescriptlang.org/):** Linguagem de programação utilizada para o desenvolvimento do projeto.
 - **[Tsup](https://github.com/egoist/tsup):** Ferramenta de construção e empacotamento para projetos TypeScript.
@@ -60,9 +60,9 @@ O Gerenciador de PodCasts é uma aplicação inspirada no estilo da Netflix, que
 - **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript que permite executar código JavaScript do lado do servidor.
 - **[@types/node](https://www.npmjs.com/package/@types/node):** Pacote de definições de tipos para Node.js para auxiliar no desenvolvimento com TypeScript.
 
-## Como Utilizar
+## 📝 Como Utilizar
 
-1. Clone este repositório.
+1. Clone este repositório: `https://github.com/giovanesouza/api-gerenciador-podcasts.git`.
 2. Instale as dependências usando `npm install`.
-3. Inicie o servidor executando `start:dev`.
+3. Inicie o servidor executando `npm run start:dev`.
 4. Acesse os endpoints fornecidos para listar os episódios de podcasts ou filtrá-los por nome de podcast.
